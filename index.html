@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sketchpad</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>Sketchpad</h1>
+    <div id="controls">
+      <div>
+        <input type="color" id="colorPicker" />
+        <button class="button active" id="colorBtn">Color</button>
+        <button class="button" id="rainbowBtn">Rainbow</button>
+        <button class="button" id="eraserBtn">Eraser</button>
+        <button class="button" id="clearBtn">Clear</button>
+      </div>
+      <button onclick="changeGridSize()" class="button">New Grid(16x16)</button>
+    </div>
+
+    <div id="grid"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
